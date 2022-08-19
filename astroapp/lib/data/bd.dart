@@ -80,6 +80,9 @@ class BD {
       imagem: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Size_planets_comparison.jpg/1280px-Size_planets_comparison.jpg',
       titulo: 'Titulo - 2022',
     ),
+    Noticias(
+      imagem: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Size_planets_comparison.jpg/1280px-Size_planets_comparison.jpg',
+      titulo: 'Teste de títular',
   ];
 
   static Future<List<Questoes>> getCardQuestoes() async {
